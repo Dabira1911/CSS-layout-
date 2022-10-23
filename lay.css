@@ -1,0 +1,111 @@
+html{
+    font-size: 16px;
+    line-height: 1.3;
+    font-weight: 400;
+    box-sizing: inherit;
+    
+}
+body{    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 70px;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+     -webkit-text-size-adjust: 100%;
+    
+}
+h1{ color: rgb(5, 139, 110);
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+
+}
+.stats{
+    background: #9adfd6f6;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.services_{ 
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    transition: all .2s ease 0s;
+    background: #00b39b;
+}
+.we{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-content: space-between;
+}
+.r12{
+    color: rgba(12, 189, 92, 0.719);
+    align-content: space-around;
+    justify-content: center;
+
+}
+.container-fluid{
+    position: sticky;
+}
+.we1{
+    display: grid;
+    align-content: space-between;
+    background: #00b39b;
+    color: #fff;
+    text-shadow: none;
+}
+.offi{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.sp{
+    align-content: center;
+}
+.offi1{
+    
+    display: flex;
+
+}
+.section{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-items: center;
+}
+h2{
+    color: rgb(19, 18, 18);
+    padding-right: 5px;
+    justify-content: space-around;
+}
+button{
+    background-color: rgba(3, 65, 107, 0.849);
+    color: #fff;
+    box-sizing: border-box;
+}
+.btn <btn--small> {
+    color: #fff;
+    size: 100px;
+    button
+}  
+.join{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+
+}
+.office{
+    color: black;
+}
+.col-2{
+    grid-template-columns: auto;
+}
